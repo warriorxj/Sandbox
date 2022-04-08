@@ -1,0 +1,11 @@
+for (int i = 0; i <= 10; i++)
+  {
+    println("Create Job job-$i")
+
+// here starts create the job
+    job("job-$i") {
+
+    }
+
+    ////////////here ends create the job
+  }
